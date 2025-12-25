@@ -2,7 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: Archivo Black;
+    font-weight: bold;
+}
+
+body{
+    background-color: black;
+}
+
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Pepsi';
+    src: url('./fonts/PEPSI_pl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 header {
@@ -48,7 +67,6 @@ header {
 
 .container-video video {
     max-width: 100%;
-    border: 0px;
 }
 
 
@@ -125,15 +143,15 @@ footer {
 
 }
 
-.footer-text h2 {
+.pepsi-text h2 {
     display: flex;
     padding-top: 50px;
     color: white;
-    font-weight: 1200;
-    font-size: large;
+    font-family: 'Pepsi';
+    font-size: 3ch;
 }
 
-.footer-text h2:hover {
+.pepsi-text h2:hover {
     color: blue;
 }
 
@@ -141,7 +159,6 @@ footer {
     display: flex;
     justify-content: center;
     gap: 70px;
-    padding-bottom: 70px;
 }
 
 
@@ -163,6 +180,14 @@ footer {
 
 .socials-footer img {
     cursor: pointer;
+}
+
+.copy-text h2 {
+    display: flex;
+    color: rgb(47, 51, 78);
+    padding-bottom: 30px;
+    font-size: medium;
+    font-family: 'Pepsi';
 }
 
 @media (max-width: 900px) {
